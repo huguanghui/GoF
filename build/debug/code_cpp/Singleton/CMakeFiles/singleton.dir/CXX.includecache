@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/GIT/GOF/code_cpp/Singleton/Singleton.cpp
+Singleton.h
+/root/GIT/GOF/code_cpp/Singleton/Singleton.h
+iostream
+-
+
+/root/GIT/GOF/code_cpp/Singleton/Singleton.h
+
+/root/GIT/GOF/code_cpp/Singleton/main.cpp
+iostream
+-
+Singleton.h
+/root/GIT/GOF/code_cpp/Singleton/Singleton.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/sim_factory.dir/main.cpp.o CMakeFiles/sim_factory.dir/Product.cpp.o CMakeFiles/sim_factory.dir/Factory.cpp.o CMakeFiles/sim_factory.dir/ConcreteProductA.cpp.o CMakeFiles/sim_factory.dir/ConcreteProductB.cpp.o  -o ../../bin/sim_factory -rdynamic 

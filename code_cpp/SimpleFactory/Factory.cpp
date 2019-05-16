@@ -4,24 +4,22 @@
 //  Created on:      01-十月-2014 18:41:33
 //  Original author: colin
 ///////////////////////////////////////////////////////////
+#include <iostream>
 
 #include "Factory.h"
 #include "ConcreteProductA.h"
 #include "ConcreteProductB.h"
 
-
 Factory::Factory(){
 
 }
-
-
 
 Factory::~Factory(){
 
 }
 
-
 Product* Factory::createProduct(string proname){
+	std::cout << "product name: " << proname << std::endl;
 	if ( "A" == proname )
 	{
 		return new ConcreteProductA();

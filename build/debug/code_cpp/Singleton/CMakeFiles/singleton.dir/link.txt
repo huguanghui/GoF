@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/singleton.dir/main.cpp.o CMakeFiles/singleton.dir/Singleton.cpp.o  -o ../../bin/singleton -rdynamic 

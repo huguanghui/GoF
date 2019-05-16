@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/factory_method.dir/main.cpp.o CMakeFiles/factory_method.dir/Product.cpp.o CMakeFiles/factory_method.dir/Factory.cpp.o CMakeFiles/factory_method.dir/ConcreteProduct.cpp.o CMakeFiles/factory_method.dir/ConcreteFactory.cpp.o  -o ../../bin/factory_method -rdynamic 

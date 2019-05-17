@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/proxy.dir/main.cpp.o CMakeFiles/proxy.dir/Proxy.cpp.o CMakeFiles/proxy.dir/RealSubject.cpp.o CMakeFiles/proxy.dir/Subject.cpp.o  -o ../../bin/proxy -rdynamic 

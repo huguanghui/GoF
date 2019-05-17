@@ -18,6 +18,8 @@ int main(int argc, char *argv[])
 	// sendmsg from b to a
 	pb->sendmsg(1,"hello,i am b");
 	
-	delete pa,pb,pm;
+	delete pa;
+	delete pb;
+	delete pm;
 	return 0;
 }

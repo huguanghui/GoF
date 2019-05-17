@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/facade.dir/main.cpp.o CMakeFiles/facade.dir/Client.cpp.o CMakeFiles/facade.dir/Facade.cpp.o CMakeFiles/facade.dir/SystemA.cpp.o CMakeFiles/facade.dir/SystemB.cpp.o CMakeFiles/facade.dir/SystemC.cpp.o  -o ../../bin/facade -rdynamic 

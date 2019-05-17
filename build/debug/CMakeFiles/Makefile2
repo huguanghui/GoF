@@ -69,6 +69,16 @@ code_cpp/all: code_cpp/AbstractFactory/all
 code_cpp/all: code_cpp/Builder/all
 code_cpp/all: code_cpp/Singleton/all
 code_cpp/all: code_cpp/Adapter/all
+code_cpp/all: code_cpp/Bridge/all
+code_cpp/all: code_cpp/Decorator/all
+code_cpp/all: code_cpp/Facade/all
+code_cpp/all: code_cpp/Flyweight/all
+code_cpp/all: code_cpp/Proxy/all
+code_cpp/all: code_cpp/Command/all
+code_cpp/all: code_cpp/Mediator/all
+code_cpp/all: code_cpp/Obeserver/all
+code_cpp/all: code_cpp/State/all
+code_cpp/all: code_cpp/Strategy/all
 
 .PHONY : code_cpp/all
 
@@ -79,6 +89,16 @@ code_cpp/clean: code_cpp/AbstractFactory/clean
 code_cpp/clean: code_cpp/Builder/clean
 code_cpp/clean: code_cpp/Singleton/clean
 code_cpp/clean: code_cpp/Adapter/clean
+code_cpp/clean: code_cpp/Bridge/clean
+code_cpp/clean: code_cpp/Decorator/clean
+code_cpp/clean: code_cpp/Facade/clean
+code_cpp/clean: code_cpp/Flyweight/clean
+code_cpp/clean: code_cpp/Proxy/clean
+code_cpp/clean: code_cpp/Command/clean
+code_cpp/clean: code_cpp/Mediator/clean
+code_cpp/clean: code_cpp/Obeserver/clean
+code_cpp/clean: code_cpp/State/clean
+code_cpp/clean: code_cpp/Strategy/clean
 
 .PHONY : code_cpp/clean
 
@@ -89,6 +109,16 @@ code_cpp/preinstall: code_cpp/AbstractFactory/preinstall
 code_cpp/preinstall: code_cpp/Builder/preinstall
 code_cpp/preinstall: code_cpp/Singleton/preinstall
 code_cpp/preinstall: code_cpp/Adapter/preinstall
+code_cpp/preinstall: code_cpp/Bridge/preinstall
+code_cpp/preinstall: code_cpp/Decorator/preinstall
+code_cpp/preinstall: code_cpp/Facade/preinstall
+code_cpp/preinstall: code_cpp/Flyweight/preinstall
+code_cpp/preinstall: code_cpp/Proxy/preinstall
+code_cpp/preinstall: code_cpp/Command/preinstall
+code_cpp/preinstall: code_cpp/Mediator/preinstall
+code_cpp/preinstall: code_cpp/Obeserver/preinstall
+code_cpp/preinstall: code_cpp/State/preinstall
+code_cpp/preinstall: code_cpp/Strategy/preinstall
 
 .PHONY : code_cpp/preinstall
 
@@ -117,7 +147,7 @@ code_cpp/SimpleFactory/preinstall:
 code_cpp/SimpleFactory/CMakeFiles/sim_factory.dir/all:
 	$(MAKE) -f code_cpp/SimpleFactory/CMakeFiles/sim_factory.dir/build.make code_cpp/SimpleFactory/CMakeFiles/sim_factory.dir/depend
 	$(MAKE) -f code_cpp/SimpleFactory/CMakeFiles/sim_factory.dir/build.make code_cpp/SimpleFactory/CMakeFiles/sim_factory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=30,31,32,33,34,35 "Built target sim_factory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=80,81,82,83,84,85 "Built target sim_factory"
 .PHONY : code_cpp/SimpleFactory/CMakeFiles/sim_factory.dir/all
 
 # Include target in all.
@@ -172,7 +202,7 @@ code_cpp/FactoryMethod/preinstall:
 code_cpp/FactoryMethod/CMakeFiles/factory_method.dir/all:
 	$(MAKE) -f code_cpp/FactoryMethod/CMakeFiles/factory_method.dir/build.make code_cpp/FactoryMethod/CMakeFiles/factory_method.dir/depend
 	$(MAKE) -f code_cpp/FactoryMethod/CMakeFiles/factory_method.dir/build.make code_cpp/FactoryMethod/CMakeFiles/factory_method.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=24,25,26,27,28,29 "Built target factory_method"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=50,51,52,53,54,55 "Built target factory_method"
 .PHONY : code_cpp/FactoryMethod/CMakeFiles/factory_method.dir/all
 
 # Include target in all.
@@ -227,7 +257,7 @@ code_cpp/AbstractFactory/preinstall:
 code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/all:
 	$(MAKE) -f code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/build.make code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/depend
 	$(MAKE) -f code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/build.make code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target abs_factory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target abs_factory"
 .PHONY : code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/all
 
 # Include target in all.
@@ -237,7 +267,7 @@ all: code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/all
 
 # Build rule for subdir invocation for target.
 code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
 .PHONY : code_cpp/AbstractFactory/CMakeFiles/abs_factory.dir/rule
@@ -282,7 +312,7 @@ code_cpp/Builder/preinstall:
 code_cpp/Builder/CMakeFiles/builder.dir/all:
 	$(MAKE) -f code_cpp/Builder/CMakeFiles/builder.dir/build.make code_cpp/Builder/CMakeFiles/builder.dir/depend
 	$(MAKE) -f code_cpp/Builder/CMakeFiles/builder.dir/build.make code_cpp/Builder/CMakeFiles/builder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=18,19,20,21,22,23 "Built target builder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=24,25,26,27,28,29 "Built target builder"
 .PHONY : code_cpp/Builder/CMakeFiles/builder.dir/all
 
 # Include target in all.
@@ -337,7 +367,7 @@ code_cpp/Singleton/preinstall:
 code_cpp/Singleton/CMakeFiles/singleton.dir/all:
 	$(MAKE) -f code_cpp/Singleton/CMakeFiles/singleton.dir/build.make code_cpp/Singleton/CMakeFiles/singleton.dir/depend
 	$(MAKE) -f code_cpp/Singleton/CMakeFiles/singleton.dir/build.make code_cpp/Singleton/CMakeFiles/singleton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=36,37,38 "Built target singleton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=86,87,88 "Built target singleton"
 .PHONY : code_cpp/Singleton/CMakeFiles/singleton.dir/all
 
 # Include target in all.
@@ -392,7 +422,7 @@ code_cpp/Adapter/preinstall:
 code_cpp/Adapter/CMakeFiles/adapter.dir/all:
 	$(MAKE) -f code_cpp/Adapter/CMakeFiles/adapter.dir/build.make code_cpp/Adapter/CMakeFiles/adapter.dir/depend
 	$(MAKE) -f code_cpp/Adapter/CMakeFiles/adapter.dir/build.make code_cpp/Adapter/CMakeFiles/adapter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=12,13,14,15,16,17 "Built target adapter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=11,12,13,14,15,16 "Built target adapter"
 .PHONY : code_cpp/Adapter/CMakeFiles/adapter.dir/all
 
 # Include target in all.
@@ -419,6 +449,556 @@ code_cpp/Adapter/CMakeFiles/adapter.dir/clean:
 
 # clean rule for target.
 clean: code_cpp/Adapter/CMakeFiles/adapter.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/Bridge
+
+# Convenience name for "all" pass in the directory.
+code_cpp/Bridge/all: code_cpp/Bridge/CMakeFiles/bridge.dir/all
+
+.PHONY : code_cpp/Bridge/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/Bridge/clean: code_cpp/Bridge/CMakeFiles/bridge.dir/clean
+
+.PHONY : code_cpp/Bridge/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/Bridge/preinstall:
+
+.PHONY : code_cpp/Bridge/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/Bridge/CMakeFiles/bridge.dir
+
+# All Build rule for target.
+code_cpp/Bridge/CMakeFiles/bridge.dir/all:
+	$(MAKE) -f code_cpp/Bridge/CMakeFiles/bridge.dir/build.make code_cpp/Bridge/CMakeFiles/bridge.dir/depend
+	$(MAKE) -f code_cpp/Bridge/CMakeFiles/bridge.dir/build.make code_cpp/Bridge/CMakeFiles/bridge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=17,18,19,20,21,22,23 "Built target bridge"
+.PHONY : code_cpp/Bridge/CMakeFiles/bridge.dir/all
+
+# Include target in all.
+all: code_cpp/Bridge/CMakeFiles/bridge.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/Bridge/CMakeFiles/bridge.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/Bridge/CMakeFiles/bridge.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/Bridge/CMakeFiles/bridge.dir/rule
+
+# Convenience name for target.
+bridge: code_cpp/Bridge/CMakeFiles/bridge.dir/rule
+
+.PHONY : bridge
+
+# clean rule for target.
+code_cpp/Bridge/CMakeFiles/bridge.dir/clean:
+	$(MAKE) -f code_cpp/Bridge/CMakeFiles/bridge.dir/build.make code_cpp/Bridge/CMakeFiles/bridge.dir/clean
+.PHONY : code_cpp/Bridge/CMakeFiles/bridge.dir/clean
+
+# clean rule for target.
+clean: code_cpp/Bridge/CMakeFiles/bridge.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/Decorator
+
+# Convenience name for "all" pass in the directory.
+code_cpp/Decorator/all: code_cpp/Decorator/CMakeFiles/decorator.dir/all
+
+.PHONY : code_cpp/Decorator/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/Decorator/clean: code_cpp/Decorator/CMakeFiles/decorator.dir/clean
+
+.PHONY : code_cpp/Decorator/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/Decorator/preinstall:
+
+.PHONY : code_cpp/Decorator/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/Decorator/CMakeFiles/decorator.dir
+
+# All Build rule for target.
+code_cpp/Decorator/CMakeFiles/decorator.dir/all:
+	$(MAKE) -f code_cpp/Decorator/CMakeFiles/decorator.dir/build.make code_cpp/Decorator/CMakeFiles/decorator.dir/depend
+	$(MAKE) -f code_cpp/Decorator/CMakeFiles/decorator.dir/build.make code_cpp/Decorator/CMakeFiles/decorator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=36,37,38,39,40,41,42 "Built target decorator"
+.PHONY : code_cpp/Decorator/CMakeFiles/decorator.dir/all
+
+# Include target in all.
+all: code_cpp/Decorator/CMakeFiles/decorator.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/Decorator/CMakeFiles/decorator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/Decorator/CMakeFiles/decorator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/Decorator/CMakeFiles/decorator.dir/rule
+
+# Convenience name for target.
+decorator: code_cpp/Decorator/CMakeFiles/decorator.dir/rule
+
+.PHONY : decorator
+
+# clean rule for target.
+code_cpp/Decorator/CMakeFiles/decorator.dir/clean:
+	$(MAKE) -f code_cpp/Decorator/CMakeFiles/decorator.dir/build.make code_cpp/Decorator/CMakeFiles/decorator.dir/clean
+.PHONY : code_cpp/Decorator/CMakeFiles/decorator.dir/clean
+
+# clean rule for target.
+clean: code_cpp/Decorator/CMakeFiles/decorator.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/Facade
+
+# Convenience name for "all" pass in the directory.
+code_cpp/Facade/all: code_cpp/Facade/CMakeFiles/facade.dir/all
+
+.PHONY : code_cpp/Facade/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/Facade/clean: code_cpp/Facade/CMakeFiles/facade.dir/clean
+
+.PHONY : code_cpp/Facade/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/Facade/preinstall:
+
+.PHONY : code_cpp/Facade/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/Facade/CMakeFiles/facade.dir
+
+# All Build rule for target.
+code_cpp/Facade/CMakeFiles/facade.dir/all:
+	$(MAKE) -f code_cpp/Facade/CMakeFiles/facade.dir/build.make code_cpp/Facade/CMakeFiles/facade.dir/depend
+	$(MAKE) -f code_cpp/Facade/CMakeFiles/facade.dir/build.make code_cpp/Facade/CMakeFiles/facade.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=43,44,45,46,47,48,49 "Built target facade"
+.PHONY : code_cpp/Facade/CMakeFiles/facade.dir/all
+
+# Include target in all.
+all: code_cpp/Facade/CMakeFiles/facade.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/Facade/CMakeFiles/facade.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/Facade/CMakeFiles/facade.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/Facade/CMakeFiles/facade.dir/rule
+
+# Convenience name for target.
+facade: code_cpp/Facade/CMakeFiles/facade.dir/rule
+
+.PHONY : facade
+
+# clean rule for target.
+code_cpp/Facade/CMakeFiles/facade.dir/clean:
+	$(MAKE) -f code_cpp/Facade/CMakeFiles/facade.dir/build.make code_cpp/Facade/CMakeFiles/facade.dir/clean
+.PHONY : code_cpp/Facade/CMakeFiles/facade.dir/clean
+
+# clean rule for target.
+clean: code_cpp/Facade/CMakeFiles/facade.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/Flyweight
+
+# Convenience name for "all" pass in the directory.
+code_cpp/Flyweight/all: code_cpp/Flyweight/CMakeFiles/flyweight.dir/all
+
+.PHONY : code_cpp/Flyweight/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/Flyweight/clean: code_cpp/Flyweight/CMakeFiles/flyweight.dir/clean
+
+.PHONY : code_cpp/Flyweight/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/Flyweight/preinstall:
+
+.PHONY : code_cpp/Flyweight/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/Flyweight/CMakeFiles/flyweight.dir
+
+# All Build rule for target.
+code_cpp/Flyweight/CMakeFiles/flyweight.dir/all:
+	$(MAKE) -f code_cpp/Flyweight/CMakeFiles/flyweight.dir/build.make code_cpp/Flyweight/CMakeFiles/flyweight.dir/depend
+	$(MAKE) -f code_cpp/Flyweight/CMakeFiles/flyweight.dir/build.make code_cpp/Flyweight/CMakeFiles/flyweight.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=56,57,58,59,60,61 "Built target flyweight"
+.PHONY : code_cpp/Flyweight/CMakeFiles/flyweight.dir/all
+
+# Include target in all.
+all: code_cpp/Flyweight/CMakeFiles/flyweight.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/Flyweight/CMakeFiles/flyweight.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/Flyweight/CMakeFiles/flyweight.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/Flyweight/CMakeFiles/flyweight.dir/rule
+
+# Convenience name for target.
+flyweight: code_cpp/Flyweight/CMakeFiles/flyweight.dir/rule
+
+.PHONY : flyweight
+
+# clean rule for target.
+code_cpp/Flyweight/CMakeFiles/flyweight.dir/clean:
+	$(MAKE) -f code_cpp/Flyweight/CMakeFiles/flyweight.dir/build.make code_cpp/Flyweight/CMakeFiles/flyweight.dir/clean
+.PHONY : code_cpp/Flyweight/CMakeFiles/flyweight.dir/clean
+
+# clean rule for target.
+clean: code_cpp/Flyweight/CMakeFiles/flyweight.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/Proxy
+
+# Convenience name for "all" pass in the directory.
+code_cpp/Proxy/all: code_cpp/Proxy/CMakeFiles/proxy.dir/all
+
+.PHONY : code_cpp/Proxy/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/Proxy/clean: code_cpp/Proxy/CMakeFiles/proxy.dir/clean
+
+.PHONY : code_cpp/Proxy/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/Proxy/preinstall:
+
+.PHONY : code_cpp/Proxy/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/Proxy/CMakeFiles/proxy.dir
+
+# All Build rule for target.
+code_cpp/Proxy/CMakeFiles/proxy.dir/all:
+	$(MAKE) -f code_cpp/Proxy/CMakeFiles/proxy.dir/build.make code_cpp/Proxy/CMakeFiles/proxy.dir/depend
+	$(MAKE) -f code_cpp/Proxy/CMakeFiles/proxy.dir/build.make code_cpp/Proxy/CMakeFiles/proxy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=75,76,77,78,79 "Built target proxy"
+.PHONY : code_cpp/Proxy/CMakeFiles/proxy.dir/all
+
+# Include target in all.
+all: code_cpp/Proxy/CMakeFiles/proxy.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/Proxy/CMakeFiles/proxy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/Proxy/CMakeFiles/proxy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/Proxy/CMakeFiles/proxy.dir/rule
+
+# Convenience name for target.
+proxy: code_cpp/Proxy/CMakeFiles/proxy.dir/rule
+
+.PHONY : proxy
+
+# clean rule for target.
+code_cpp/Proxy/CMakeFiles/proxy.dir/clean:
+	$(MAKE) -f code_cpp/Proxy/CMakeFiles/proxy.dir/build.make code_cpp/Proxy/CMakeFiles/proxy.dir/clean
+.PHONY : code_cpp/Proxy/CMakeFiles/proxy.dir/clean
+
+# clean rule for target.
+clean: code_cpp/Proxy/CMakeFiles/proxy.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/Command
+
+# Convenience name for "all" pass in the directory.
+code_cpp/Command/all: code_cpp/Command/CMakeFiles/commander.dir/all
+
+.PHONY : code_cpp/Command/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/Command/clean: code_cpp/Command/CMakeFiles/commander.dir/clean
+
+.PHONY : code_cpp/Command/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/Command/preinstall:
+
+.PHONY : code_cpp/Command/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/Command/CMakeFiles/commander.dir
+
+# All Build rule for target.
+code_cpp/Command/CMakeFiles/commander.dir/all:
+	$(MAKE) -f code_cpp/Command/CMakeFiles/commander.dir/build.make code_cpp/Command/CMakeFiles/commander.dir/depend
+	$(MAKE) -f code_cpp/Command/CMakeFiles/commander.dir/build.make code_cpp/Command/CMakeFiles/commander.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=30,31,32,33,34,35 "Built target commander"
+.PHONY : code_cpp/Command/CMakeFiles/commander.dir/all
+
+# Include target in all.
+all: code_cpp/Command/CMakeFiles/commander.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/Command/CMakeFiles/commander.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/Command/CMakeFiles/commander.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/Command/CMakeFiles/commander.dir/rule
+
+# Convenience name for target.
+commander: code_cpp/Command/CMakeFiles/commander.dir/rule
+
+.PHONY : commander
+
+# clean rule for target.
+code_cpp/Command/CMakeFiles/commander.dir/clean:
+	$(MAKE) -f code_cpp/Command/CMakeFiles/commander.dir/build.make code_cpp/Command/CMakeFiles/commander.dir/clean
+.PHONY : code_cpp/Command/CMakeFiles/commander.dir/clean
+
+# clean rule for target.
+clean: code_cpp/Command/CMakeFiles/commander.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/Mediator
+
+# Convenience name for "all" pass in the directory.
+code_cpp/Mediator/all: code_cpp/Mediator/CMakeFiles/mediator.dir/all
+
+.PHONY : code_cpp/Mediator/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/Mediator/clean: code_cpp/Mediator/CMakeFiles/mediator.dir/clean
+
+.PHONY : code_cpp/Mediator/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/Mediator/preinstall:
+
+.PHONY : code_cpp/Mediator/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/Mediator/CMakeFiles/mediator.dir
+
+# All Build rule for target.
+code_cpp/Mediator/CMakeFiles/mediator.dir/all:
+	$(MAKE) -f code_cpp/Mediator/CMakeFiles/mediator.dir/build.make code_cpp/Mediator/CMakeFiles/mediator.dir/depend
+	$(MAKE) -f code_cpp/Mediator/CMakeFiles/mediator.dir/build.make code_cpp/Mediator/CMakeFiles/mediator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=62,63,64,65,66,67,68 "Built target mediator"
+.PHONY : code_cpp/Mediator/CMakeFiles/mediator.dir/all
+
+# Include target in all.
+all: code_cpp/Mediator/CMakeFiles/mediator.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/Mediator/CMakeFiles/mediator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/Mediator/CMakeFiles/mediator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/Mediator/CMakeFiles/mediator.dir/rule
+
+# Convenience name for target.
+mediator: code_cpp/Mediator/CMakeFiles/mediator.dir/rule
+
+.PHONY : mediator
+
+# clean rule for target.
+code_cpp/Mediator/CMakeFiles/mediator.dir/clean:
+	$(MAKE) -f code_cpp/Mediator/CMakeFiles/mediator.dir/build.make code_cpp/Mediator/CMakeFiles/mediator.dir/clean
+.PHONY : code_cpp/Mediator/CMakeFiles/mediator.dir/clean
+
+# clean rule for target.
+clean: code_cpp/Mediator/CMakeFiles/mediator.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/Obeserver
+
+# Convenience name for "all" pass in the directory.
+code_cpp/Obeserver/all: code_cpp/Obeserver/CMakeFiles/obeserver.dir/all
+
+.PHONY : code_cpp/Obeserver/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/Obeserver/clean: code_cpp/Obeserver/CMakeFiles/obeserver.dir/clean
+
+.PHONY : code_cpp/Obeserver/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/Obeserver/preinstall:
+
+.PHONY : code_cpp/Obeserver/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/Obeserver/CMakeFiles/obeserver.dir
+
+# All Build rule for target.
+code_cpp/Obeserver/CMakeFiles/obeserver.dir/all:
+	$(MAKE) -f code_cpp/Obeserver/CMakeFiles/obeserver.dir/build.make code_cpp/Obeserver/CMakeFiles/obeserver.dir/depend
+	$(MAKE) -f code_cpp/Obeserver/CMakeFiles/obeserver.dir/build.make code_cpp/Obeserver/CMakeFiles/obeserver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=69,70,71,72,73,74 "Built target obeserver"
+.PHONY : code_cpp/Obeserver/CMakeFiles/obeserver.dir/all
+
+# Include target in all.
+all: code_cpp/Obeserver/CMakeFiles/obeserver.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/Obeserver/CMakeFiles/obeserver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/Obeserver/CMakeFiles/obeserver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/Obeserver/CMakeFiles/obeserver.dir/rule
+
+# Convenience name for target.
+obeserver: code_cpp/Obeserver/CMakeFiles/obeserver.dir/rule
+
+.PHONY : obeserver
+
+# clean rule for target.
+code_cpp/Obeserver/CMakeFiles/obeserver.dir/clean:
+	$(MAKE) -f code_cpp/Obeserver/CMakeFiles/obeserver.dir/build.make code_cpp/Obeserver/CMakeFiles/obeserver.dir/clean
+.PHONY : code_cpp/Obeserver/CMakeFiles/obeserver.dir/clean
+
+# clean rule for target.
+clean: code_cpp/Obeserver/CMakeFiles/obeserver.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/State
+
+# Convenience name for "all" pass in the directory.
+code_cpp/State/all: code_cpp/State/CMakeFiles/state.dir/all
+
+.PHONY : code_cpp/State/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/State/clean: code_cpp/State/CMakeFiles/state.dir/clean
+
+.PHONY : code_cpp/State/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/State/preinstall:
+
+.PHONY : code_cpp/State/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/State/CMakeFiles/state.dir
+
+# All Build rule for target.
+code_cpp/State/CMakeFiles/state.dir/all:
+	$(MAKE) -f code_cpp/State/CMakeFiles/state.dir/build.make code_cpp/State/CMakeFiles/state.dir/depend
+	$(MAKE) -f code_cpp/State/CMakeFiles/state.dir/build.make code_cpp/State/CMakeFiles/state.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=89,90,91,92,93,94 "Built target state"
+.PHONY : code_cpp/State/CMakeFiles/state.dir/all
+
+# Include target in all.
+all: code_cpp/State/CMakeFiles/state.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/State/CMakeFiles/state.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/State/CMakeFiles/state.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/State/CMakeFiles/state.dir/rule
+
+# Convenience name for target.
+state: code_cpp/State/CMakeFiles/state.dir/rule
+
+.PHONY : state
+
+# clean rule for target.
+code_cpp/State/CMakeFiles/state.dir/clean:
+	$(MAKE) -f code_cpp/State/CMakeFiles/state.dir/build.make code_cpp/State/CMakeFiles/state.dir/clean
+.PHONY : code_cpp/State/CMakeFiles/state.dir/clean
+
+# clean rule for target.
+clean: code_cpp/State/CMakeFiles/state.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code_cpp/Strategy
+
+# Convenience name for "all" pass in the directory.
+code_cpp/Strategy/all: code_cpp/Strategy/CMakeFiles/strategy.dir/all
+
+.PHONY : code_cpp/Strategy/all
+
+# Convenience name for "clean" pass in the directory.
+code_cpp/Strategy/clean: code_cpp/Strategy/CMakeFiles/strategy.dir/clean
+
+.PHONY : code_cpp/Strategy/clean
+
+# Convenience name for "preinstall" pass in the directory.
+code_cpp/Strategy/preinstall:
+
+.PHONY : code_cpp/Strategy/preinstall
+
+#=============================================================================
+# Target rules for target code_cpp/Strategy/CMakeFiles/strategy.dir
+
+# All Build rule for target.
+code_cpp/Strategy/CMakeFiles/strategy.dir/all:
+	$(MAKE) -f code_cpp/Strategy/CMakeFiles/strategy.dir/build.make code_cpp/Strategy/CMakeFiles/strategy.dir/depend
+	$(MAKE) -f code_cpp/Strategy/CMakeFiles/strategy.dir/build.make code_cpp/Strategy/CMakeFiles/strategy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/GIT/GOF/build/debug/CMakeFiles --progress-num=95,96,97,98,99,100 "Built target strategy"
+.PHONY : code_cpp/Strategy/CMakeFiles/strategy.dir/all
+
+# Include target in all.
+all: code_cpp/Strategy/CMakeFiles/strategy.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code_cpp/Strategy/CMakeFiles/strategy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 code_cpp/Strategy/CMakeFiles/strategy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/GIT/GOF/build/debug/CMakeFiles 0
+.PHONY : code_cpp/Strategy/CMakeFiles/strategy.dir/rule
+
+# Convenience name for target.
+strategy: code_cpp/Strategy/CMakeFiles/strategy.dir/rule
+
+.PHONY : strategy
+
+# clean rule for target.
+code_cpp/Strategy/CMakeFiles/strategy.dir/clean:
+	$(MAKE) -f code_cpp/Strategy/CMakeFiles/strategy.dir/build.make code_cpp/Strategy/CMakeFiles/strategy.dir/clean
+.PHONY : code_cpp/Strategy/CMakeFiles/strategy.dir/clean
+
+# clean rule for target.
+clean: code_cpp/Strategy/CMakeFiles/strategy.dir/clean
 
 .PHONY : clean
 

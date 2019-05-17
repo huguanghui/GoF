@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/decorator.dir/main.cpp.o CMakeFiles/decorator.dir/ConcreteComponent.cpp.o CMakeFiles/decorator.dir/Component.cpp.o CMakeFiles/decorator.dir/ConcreteDecoratorA.cpp.o CMakeFiles/decorator.dir/ConcreteDecoratorB.cpp.o CMakeFiles/decorator.dir/Decorator.cpp.o  -o ../../bin/decorator -rdynamic 

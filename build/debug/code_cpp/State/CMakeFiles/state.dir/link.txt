@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/state.dir/main.cpp.o CMakeFiles/state.dir/Context.cpp.o CMakeFiles/state.dir/ConcreteStateA.cpp.o CMakeFiles/state.dir/ConcreteStateB.cpp.o CMakeFiles/state.dir/State.cpp.o  -o ../../bin/state -rdynamic 

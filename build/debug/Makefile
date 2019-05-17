@@ -188,6 +188,136 @@ adapter/fast:
 	$(MAKE) -f code_cpp/Adapter/CMakeFiles/adapter.dir/build.make code_cpp/Adapter/CMakeFiles/adapter.dir/build
 .PHONY : adapter/fast
 
+#=============================================================================
+# Target rules for targets named bridge
+
+# Build rule for target.
+bridge: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bridge
+.PHONY : bridge
+
+# fast build rule for target.
+bridge/fast:
+	$(MAKE) -f code_cpp/Bridge/CMakeFiles/bridge.dir/build.make code_cpp/Bridge/CMakeFiles/bridge.dir/build
+.PHONY : bridge/fast
+
+#=============================================================================
+# Target rules for targets named decorator
+
+# Build rule for target.
+decorator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 decorator
+.PHONY : decorator
+
+# fast build rule for target.
+decorator/fast:
+	$(MAKE) -f code_cpp/Decorator/CMakeFiles/decorator.dir/build.make code_cpp/Decorator/CMakeFiles/decorator.dir/build
+.PHONY : decorator/fast
+
+#=============================================================================
+# Target rules for targets named facade
+
+# Build rule for target.
+facade: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 facade
+.PHONY : facade
+
+# fast build rule for target.
+facade/fast:
+	$(MAKE) -f code_cpp/Facade/CMakeFiles/facade.dir/build.make code_cpp/Facade/CMakeFiles/facade.dir/build
+.PHONY : facade/fast
+
+#=============================================================================
+# Target rules for targets named flyweight
+
+# Build rule for target.
+flyweight: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 flyweight
+.PHONY : flyweight
+
+# fast build rule for target.
+flyweight/fast:
+	$(MAKE) -f code_cpp/Flyweight/CMakeFiles/flyweight.dir/build.make code_cpp/Flyweight/CMakeFiles/flyweight.dir/build
+.PHONY : flyweight/fast
+
+#=============================================================================
+# Target rules for targets named proxy
+
+# Build rule for target.
+proxy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 proxy
+.PHONY : proxy
+
+# fast build rule for target.
+proxy/fast:
+	$(MAKE) -f code_cpp/Proxy/CMakeFiles/proxy.dir/build.make code_cpp/Proxy/CMakeFiles/proxy.dir/build
+.PHONY : proxy/fast
+
+#=============================================================================
+# Target rules for targets named commander
+
+# Build rule for target.
+commander: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 commander
+.PHONY : commander
+
+# fast build rule for target.
+commander/fast:
+	$(MAKE) -f code_cpp/Command/CMakeFiles/commander.dir/build.make code_cpp/Command/CMakeFiles/commander.dir/build
+.PHONY : commander/fast
+
+#=============================================================================
+# Target rules for targets named mediator
+
+# Build rule for target.
+mediator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mediator
+.PHONY : mediator
+
+# fast build rule for target.
+mediator/fast:
+	$(MAKE) -f code_cpp/Mediator/CMakeFiles/mediator.dir/build.make code_cpp/Mediator/CMakeFiles/mediator.dir/build
+.PHONY : mediator/fast
+
+#=============================================================================
+# Target rules for targets named obeserver
+
+# Build rule for target.
+obeserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 obeserver
+.PHONY : obeserver
+
+# fast build rule for target.
+obeserver/fast:
+	$(MAKE) -f code_cpp/Obeserver/CMakeFiles/obeserver.dir/build.make code_cpp/Obeserver/CMakeFiles/obeserver.dir/build
+.PHONY : obeserver/fast
+
+#=============================================================================
+# Target rules for targets named state
+
+# Build rule for target.
+state: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 state
+.PHONY : state
+
+# fast build rule for target.
+state/fast:
+	$(MAKE) -f code_cpp/State/CMakeFiles/state.dir/build.make code_cpp/State/CMakeFiles/state.dir/build
+.PHONY : state/fast
+
+#=============================================================================
+# Target rules for targets named strategy
+
+# Build rule for target.
+strategy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strategy
+.PHONY : strategy
+
+# fast build rule for target.
+strategy/fast:
+	$(MAKE) -f code_cpp/Strategy/CMakeFiles/strategy.dir/build.make code_cpp/Strategy/CMakeFiles/strategy.dir/build
+.PHONY : strategy/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,6 +332,16 @@ help:
 	@echo "... builder"
 	@echo "... singleton"
 	@echo "... adapter"
+	@echo "... bridge"
+	@echo "... decorator"
+	@echo "... facade"
+	@echo "... flyweight"
+	@echo "... proxy"
+	@echo "... commander"
+	@echo "... mediator"
+	@echo "... obeserver"
+	@echo "... state"
+	@echo "... strategy"
 .PHONY : help
 
 

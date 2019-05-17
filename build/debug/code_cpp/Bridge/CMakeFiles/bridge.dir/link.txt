@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/bridge.dir/main.cpp.o CMakeFiles/bridge.dir/RefinedAbstraction.cpp.o CMakeFiles/bridge.dir/Abstraction.cpp.o CMakeFiles/bridge.dir/ConcreteImplementorA.cpp.o CMakeFiles/bridge.dir/ConcreteImplementorB.cpp.o CMakeFiles/bridge.dir/Implementor.cpp.o  -o ../../bin/bridge -rdynamic 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/commander.dir/main.cpp.o CMakeFiles/commander.dir/Receiver.cpp.o CMakeFiles/commander.dir/ConcreteCommand.cpp.o CMakeFiles/commander.dir/Invoker.cpp.o CMakeFiles/commander.dir/Command.cpp.o  -o ../../bin/commander -rdynamic 

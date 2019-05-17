@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	int rac4 = 0x8;
 	
 	int i = 0xe;
-	int j = 0x5;
+	//int j = 0x5;
 
 	int r1 = i & rac1;
 	int r2 = i & rac2;

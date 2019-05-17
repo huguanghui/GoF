@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/strategy.dir/main.cpp.o CMakeFiles/strategy.dir/Context.cpp.o CMakeFiles/strategy.dir/ConcreteStrategyA.cpp.o CMakeFiles/strategy.dir/ConcreteStrategyB.cpp.o CMakeFiles/strategy.dir/Strategy.cpp.o  -o ../../bin/strategy -rdynamic 

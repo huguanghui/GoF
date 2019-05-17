@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/GIT/GOF/code_cpp/Proxy/Proxy.cpp
+Proxy.h
+/root/GIT/GOF/code_cpp/Proxy/Proxy.h
+iostream
+-
+
+/root/GIT/GOF/code_cpp/Proxy/Proxy.h
+RealSubject.h
+/root/GIT/GOF/code_cpp/Proxy/RealSubject.h
+Subject.h
+/root/GIT/GOF/code_cpp/Proxy/Subject.h
+
+/root/GIT/GOF/code_cpp/Proxy/RealSubject.cpp
+RealSubject.h
+/root/GIT/GOF/code_cpp/Proxy/RealSubject.h
+iostream
+-
+
+/root/GIT/GOF/code_cpp/Proxy/RealSubject.h
+Subject.h
+/root/GIT/GOF/code_cpp/Proxy/Subject.h
+
+/root/GIT/GOF/code_cpp/Proxy/Subject.cpp
+Subject.h
+/root/GIT/GOF/code_cpp/Proxy/Subject.h
+
+/root/GIT/GOF/code_cpp/Proxy/Subject.h
+
+/root/GIT/GOF/code_cpp/Proxy/main.cpp
+iostream
+-
+RealSubject.h
+/root/GIT/GOF/code_cpp/Proxy/RealSubject.h
+Proxy.h
+/root/GIT/GOF/code_cpp/Proxy/Proxy.h
+

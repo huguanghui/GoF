@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -Werror -rdynamic -O0   CMakeFiles/mediator.dir/main.cpp.o CMakeFiles/mediator.dir/ConcreteMediator.cpp.o CMakeFiles/mediator.dir/Mediator.cpp.o CMakeFiles/mediator.dir/ConcreteColleagueA.cpp.o CMakeFiles/mediator.dir/ConcreteColleagueB.cpp.o CMakeFiles/mediator.dir/Colleague.cpp.o  -o ../../bin/mediator -rdynamic 
